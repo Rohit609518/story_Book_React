@@ -7,7 +7,7 @@ function About({ task , setTask }) {
     const updetaTask = task.filter(function(elem,index) {
        return index !== idx ;
     })
-     setTask(updetaTask);
+       setTask(updetaTask);
        }
      
  
